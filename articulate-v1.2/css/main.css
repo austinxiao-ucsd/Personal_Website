@@ -344,11 +344,13 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
+
 .btn.btn-default:hover, .btn.btn-default:active {
     background: #fff;
     border-color: #fff;
     color: fff;
 }
+
 input, .input-lg, button {
     border-radius: 0;
 }
@@ -391,7 +393,7 @@ label.valid {
 .chart {
     position: relative;
     display: inline-block;
-    width: 150px;
+    width: 150px; 
     height: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -412,6 +414,7 @@ label.valid {
     margin-left: 0.1em;
     font-size: .8em;
 }
+
 /* ==========================================================================
    Social icons
    ========================================================================== */
